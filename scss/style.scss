@@ -2,22 +2,24 @@
 @use 'reset' as *;
 
 body {
-  color: black;
-  font-family: Ubuntu, sans-serif;
-  font-weight: 500;
-  font-style: normal;
+  main {
+    color: black;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 
-  @media (max-width: $breakpoint--desktop) {
-   color: blue
+    @media (max-width: $breakpoint--desktop) {
+     color: purple
+    }
+
+    @media (max-width: $breakpoint--tablet) {
+      color: red
+     }
+
+     @media (max-width: $breakpoint--mobile) {
+      color: pink
+     }
   }
-
-  @media (max-width: $breakpoint--tablet) {
-    color: red
-   }
-
-   @media (max-width: $breakpoint--mobile) {
-    color: purple
-   }
 }
 
 nav {
@@ -66,16 +68,14 @@ nav {
   }
 }
 
-main {
-  color: black;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
 .monica-headshot img {
   width: 500px;
   height: 500px;
+  position: absolute;
+  left: 35%;
+  right: 35;
+  bottom: 20%;
+  border: 3px solid pink;
 }
 
 .welcome-message {
