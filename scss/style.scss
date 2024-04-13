@@ -7,4 +7,12 @@ body {
   @media (max-width: $breakpoint--desktop) {
    color: blue
   }
+
+  @media (max-width: $breakpoint--tablet) {
+    color: red
+   }
+
+   @media (max-width: $breakpoint--mobile) {
+    color: purple
+   }
 }
