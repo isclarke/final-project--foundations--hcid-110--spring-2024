@@ -14,14 +14,3 @@ $background-color--main: purple;
 $background-color--nav: white;
 $color--text: black;
 $color--nav-links: grey;
-
-$grid-column: 60px;
-$grid-gutter: $grid-column / 3;
-$grid-unit: $grid-column + $grid-gutter;
-$width--body: 12 * $grid-unit;
-
-@mixin grid-layout {
-  display: grid;
-  grid-template-columns: repeat(12, $grid-unit);
-  grid-gap: $grid-gutter;
-}
