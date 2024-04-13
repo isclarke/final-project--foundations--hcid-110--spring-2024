@@ -16,3 +16,48 @@ body {
     color: purple
    }
 }
+nav {
+  width: $width--drop-down-menu;
+  height: $height--drop-down-menu-item;
+
+  a {
+    display: block;
+    width: $width--drop-down-menu-item;
+    line-height: $height--drop-down-menu-item;
+
+    &:hover {
+      background-color: lighten($background-color--main, 40%);
+    }
+  }
+
+  > ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    > li {
+      position: relative;
+      flex-grow: 1;
+      margin: 0;
+      background-color: $background-color--nav;
+      width: $width--drop-down-menu-item;
+
+      &:hover {
+        > ul {
+          visibility: visible;
+        }
+      }
+
+      > ul {
+        position: absolute;
+        left: 0;
+        visibility: hidden;
+
+        a {
+          line-height: $height--drop-down-menu-item--li;
+        }
+      }
+    }
+  }
+}
