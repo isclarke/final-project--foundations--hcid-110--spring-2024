@@ -20,13 +20,6 @@ body {
    }
 }
 
-main {
-  color: black;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
 nav {
   width: $width--drop-down-menu;
   height: $height--drop-down-menu-item;
@@ -71,4 +64,16 @@ nav {
       }
     }
   }
+}
+
+main {
+  color: black;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.monica-headshot img {
+  width: 500px;
+  height: 500px;
 }
