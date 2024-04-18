@@ -131,7 +131,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   width: calc(17 * $grid-unit);
-  justify-content: space-evenly;
+  justify-content: space-around;
 
   @media(max-width: $breakpoint--beforedesktop) {
    width: calc(12 * $grid-unit);
@@ -147,5 +147,9 @@ header{
 
    @media(max-width: $breakpoint--tablet) {
     width: calc(8 * $grid-unit);
+   }
+
+   @media(max-width: $breakpoint--beforephone2) {
+    width: calc(6 * $grid-unit);
    }
 }
