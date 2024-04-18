@@ -106,9 +106,20 @@ header{
   height: 400px;
 }
 
+.adobe-live img {
+  width: 400px;
+  height: 400px;
+}
+
+.new-york img {
+  width: 400px;
+  height: 400px;
+}
+
 .artworks {
   margin: auto;
   display: flex;
-  width: calc(15 * $grid-unit);
+  flex-wrap: wrap;
+  width: calc(17 * $grid-unit);
   justify-content: space-around;
 }
