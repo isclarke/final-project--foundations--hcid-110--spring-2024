@@ -68,14 +68,25 @@ nav {
   }
 }
 
+.header {
+  text-align:center;
+}
+
 .monica-headshot img {
   width: 500px;
   height: 500px;
   position: absolute;
   left: 35%;
-  right: 35;
+  right: 35%;
   bottom: 20%;
   border: 3px solid pink;
+
+  @media(max-width : $breakpoint--rightbeforetab) {
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: 20%;
+  }
 }
 
 .welcome-message {
