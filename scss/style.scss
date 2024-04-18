@@ -22,52 +22,6 @@ body {
   }
 }
 
-nav {
-  width: $width--drop-down-menu;
-  height: $height--drop-down-menu-item;
-
-  a {
-    display: block;
-    width: $width--drop-down-menu-item;
-    line-height: $height--drop-down-menu-item;
-
-    &:hover {
-      background-color: black;
-    }
-  }
-
-  > ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-
-    > li {
-      position: relative;
-      flex-grow: 1;
-      margin: 0;
-      background-color: $background-color--nav;
-      width: $width--drop-down-menu-item;
-
-      &:hover {
-        > ul {
-          visibility: visible;
-        }
-      }
-
-      > ul {
-        position: absolute;
-        left: 0;
-        visibility: hidden;
-
-        a {
-          line-height: $height--drop-down-menu-item--li;
-        }
-      }
-    }
-  }
-}
-
 .monica-headshot img {
   width: 500px;
   height: 500px;
@@ -101,11 +55,17 @@ nav {
   }
 
   @media(max-width : $breakpoint--phone) {
-    width: 400px;
-    height: 400px;
+    width: 395px;
+    height: 395px;
     border: 3px solid grey;
   }
 
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .welcome-message {
@@ -114,10 +74,16 @@ nav {
   font-style: normal;
   text-align: center;
   font-size: large;
+  padding-bottom: 40px;
+}
+
+.welcome-message nav{
+  font-size: medium;
 }
 
 .introduction {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+  padding-bottom: 20px;
 }
