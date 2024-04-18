@@ -1,6 +1,5 @@
 @use 'variables' as *;
 @use 'reset' as *;
-
 body {
   main {
     color: black;
@@ -87,4 +86,21 @@ h1 {
   font-weight: 400;
   font-style: normal;
   padding-bottom: 20px;
+}
+
+.ferragamo img {
+  width: 400px;
+  height: 400px;
+}
+
+.sprite img {
+  width: 400px;
+  height: 400px;
+}
+
+.artworks {
+  margin: auto;
+  display: flex;
+  width: calc(15 * $grid-unit);
+  justify-content: space-around;
 }
