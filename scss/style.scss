@@ -12,7 +12,7 @@ body {
     }
 
     @media (max-width: $breakpoint--tablet) {
-      color: red
+      color: pink;
      }
 
      @media (max-width: $breakpoint--phone) {
@@ -65,7 +65,7 @@ h1 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: darkmagenta;
+  color: darkcyan;
   font-size: larger;
 }
 
@@ -73,7 +73,7 @@ h2 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: darkmagenta;
+  color: green;
   font-size: larger;
 }
 
@@ -81,7 +81,15 @@ h3 {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: darkmagenta;
+  color: green;
+  font-size: larger;
+}
+
+h4 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: green;
   font-size: larger;
 }
 
