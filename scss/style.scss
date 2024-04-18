@@ -91,6 +91,11 @@ nav {
     border: 3px solid greenyellow;
   }
 
+  @media(max-width : $breakpoint--beforePhone) {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
   @media(max-width : $breakpoint--phone) {
     width: 100px;
     height: 100px;
