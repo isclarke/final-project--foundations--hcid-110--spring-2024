@@ -3,8 +3,8 @@
 body {
   main {
     color: black;
-    font-family: Ubuntu, sans-serif;
-    font-weight: 500;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
     font-style: normal;
 
     @media (max-width: $breakpoint--desktop) {
@@ -69,6 +69,14 @@ h1 {
   font-size: larger;
 }
 
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: darkmagenta;
+  font-size: larger;
+}
+
 header{
   text-align: center;
   padding-top: 20px;
@@ -90,9 +98,6 @@ header{
 }
 
 .introduction {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
   padding-bottom: 20px;
 }
 
