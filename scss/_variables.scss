@@ -2,7 +2,18 @@
 $breakpoint--phone: 400px;
 $breakpoint--desktop: 1024px;
 $breakpoint--tablet: 768px;
-$breakpoint-beforephone: 613px;
+
+// In-between breakpoints (phone)
+$breakpoint--beforephone: 613px;
+$breakpoint--beforephone2: 655px;
+
+// In-between breakpoints (dekstop)
+$breakpoint--beforedesktop: 1375px;
+
+
+// In-between breakpoints (tablet)
+$breakpoint--beforetablet: 815px;
+
 
 // Grid-related variables
 $grid-column: 60px;
@@ -10,5 +21,4 @@ $grid-gutter: calc($grid-column / 3);
 $grid-unit: calc($grid-column + $grid-gutter);
 
 // Widths of artworks in gallery
-$width--images: calc(4 * $grid-unit);
 $width--artworks: calc(4 * $grid-unit);
