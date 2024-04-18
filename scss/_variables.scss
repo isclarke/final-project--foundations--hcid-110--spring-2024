@@ -3,16 +3,3 @@ $breakpoint--phone: 400px;
 $breakpoint--desktop: 1024px;
 $breakpoint--tablet: 768px;
 $breakpoint-beforephone: 613px;
-
-$drop-down-menu-count: 1;
-
-$width--drop-down-menu-item: 150px;
-$width--drop-down-menu: ($width--drop-down-menu-item * $drop-down-menu-count);
-
-$height--drop-down-menu-item: 48px;
-$height--drop-down-menu-item--li: ($height--drop-down-menu-item + 0);
-
-$background-color--main: blue;
-$background-color--nav: white;
-$color--text: black;
-$color--nav-links: grey;
