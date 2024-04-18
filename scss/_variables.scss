@@ -10,4 +10,5 @@ $grid-gutter: calc($grid-column / 3);
 $grid-unit: calc($grid-column + $grid-gutter);
 
 // Widths of artworks in gallery
-$width--artworks: calc(4 * $grid-unit)
+$width--images: calc(4 * $grid-unit);
+$width--artworks: calc(4 * $grid-unit);
